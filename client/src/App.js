@@ -13,7 +13,7 @@ const App = () => {
             <Toolbar>
 
             <img className={classes.image} src={memories} alt="picturediary" height="60"/>
-            <Typography className={classes.heading} variant="h2" align="center">Picture Diary
+            <Typography className={classes.heading} variant="h2" align="center">PictureDiary
             </Typography>
 
             </Toolbar>
