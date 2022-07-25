@@ -14,7 +14,7 @@ app.use(bodyParser.json({limit: '50mb', extended: true}))
 app.use(bodyParser.urlencoded({limit: '50mb', extended: true}))
 app.use(cors())
 
-const CONNECTION_URL = 'mongodb+srv://snroshan:snroshan@cluster0.pp5u50y.mongodb.net/?retryWrites=true&w=majority'
+const CONNECTION_URL = process.env.CONNECTION_URL
 
 const PORT = process.env.Port || 5000
 
